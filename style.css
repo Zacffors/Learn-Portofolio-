@@ -1,0 +1,79 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+.container-navbar {
+  background: rgb(216,216,216);
+}
+
+.ul-navbar{
+  display: flex;
+  padding: 5px;
+  height: 40px;
+  justify-content: center;
+}
+
+.li-navbar {
+  list-style-type: none;
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+.li-navbar:hover {
+  background-color: white;
+  transition: .3s ease-in-out;
+  transition-delay: .1s;
+  border-radius: 8px;
+}
+
+.li-navbar a {
+  color: black;
+  text-decoration: none;
+}
+
+.conten {
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.l-conten {
+  background: #b7b7b7;
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 60px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+}
+
+.last-text {
+  background: rgb(216,216,216);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+
+.last-text p {
+  font-size: 20px;
+}
